@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_3-Arrow_Right" data-name=" 3-Arrow Right">
+    <path class="cls-1" d="m20.81,9.81L14.25,0l-.93,1.39,5.45,8.13H0v1.96h18.76l-5.44,8.13.93,1.38,6.56-9.81c.25-.38.25-1,0-1.38Z"/>
+  </g>
+</svg>
