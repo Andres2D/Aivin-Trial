@@ -136,7 +136,6 @@ function incrementNumbers() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("DOM Content Loaded");
 
   const navLinks = document.querySelectorAll(".nav__list-item");
 

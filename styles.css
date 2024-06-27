@@ -12,7 +12,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: auto; /* Enable scrolling */
-  overflow-x: hidden;
 }
 
 .navbar {
@@ -470,6 +469,7 @@ button:hover svg {
 /*Gallery*/
 #projects {
   position: relative;
+  overflow: hidden;
   height: 80vh;
   width: 100%;
   margin: 0;
