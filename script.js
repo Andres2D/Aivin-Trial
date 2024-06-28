@@ -14,6 +14,10 @@ const swiper = new Swiper(".mySwiper1", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  lazy: {
+    loadPrevNext: true, // pre-loads the next image to avoid showing a loading placeholder if possible
+    loadPrevNextAmount: 2 //or, if you wish, preload the next 2 images
+  },
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -74,6 +78,10 @@ var mySwiper = new Swiper(".mySwiper2", {
   navigation: {
     nextEl: ".button-next",
     prevEl: ".button-prev",
+  },
+  lazy: {
+    loadPrevNext: true, // pre-loads the next image to avoid showing a loading placeholder if possible
+    loadPrevNextAmount: 2 //or, if you wish, preload the next 2 images
   },
 });
 
